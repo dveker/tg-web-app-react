@@ -8,3 +8,8 @@ body {
    background: var(--tg-theme-bg-color);
    color: var(--tg-theme-text-color);
 }
+
+.vl {
+   border-left: 6px solid green;
+   height: 500px;
+ }
