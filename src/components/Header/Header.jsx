@@ -1,9 +1,10 @@
 import React from 'react';
 import { useTelegram } from '../../hooks/telegram';
-import '/Header.css';
+import './Header.css';
+import Button from '../Button/button'
 
-const Header = (props) => {
-   const {user, onClose} = useTelegram();
+const Header = () => {
+    const {user, onClose} = useTelegram();
     return (
         <div className={'header'}>
             <Button onClick={onClose}>close</Button>
